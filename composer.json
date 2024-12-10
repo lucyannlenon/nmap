@@ -1,0 +1,34 @@
+{
+  "name": "llenon/network-nmap",
+  "description": "A PHP package for payment handling.",
+  "type": "library",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "LLenon\\Network\\Nmap\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.3",
+    "symfony/dotenv": "7.2.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "symfony/flex": "2.4.*",
+    "symfony/var-dumper": "^7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lucyann Lenon",
+      "email": "lucyann.lenon@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "symfony/flex": true
+    }
+  }
+}
